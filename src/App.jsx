@@ -29,13 +29,13 @@ function App() {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Vishal Baliram Kerkar"
-          studentPhotoUrl="/Images/IMG_20240116_123925.jpg" // Path to their photo
+          studentPhotoUrl="/public/Images/vishal.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
     <Router>
       <Header />
-      
+
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
