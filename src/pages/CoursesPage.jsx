@@ -1,9 +1,9 @@
-import Header from "../components/Header/Header";
+
 
 const CoursesPage = () => {
     return(
         <div>
-            <Header/>
+        
                 <center>
                     <h1>Our Academic Programs</h1>
                 </center>
